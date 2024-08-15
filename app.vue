@@ -5,9 +5,11 @@
 
 <template>
   <NuxtLayout>
-    <div style="padding-top: 40px; padding-left: 10%; padding-right: 10%;">
+    <div style="margin-top: 40px; margin-left: 10%; margin-right: 10%; border: 2px solid">
       <Navbar/>
       <Home/>
+      <About/>
+      <Stack/>
     </div>
   </NuxtLayout>
 </template>
